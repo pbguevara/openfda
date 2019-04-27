@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open FDA</title>
+</head>
+<body>
+
+  <h1>Búsquedas FDA</h1>
+  <p>Por favor, rellene el formulario.</p><br>
+
+<form action="searchDrug"  method = 'get'>
+  Principio activo:<br>
+  <input type="text" name="active_ingredient" value=""><br><br>
+  <input type="submit" value="Buscar Medicamento"><br><br><br>
+</form>
+
+<form action="searchCompany"  method = 'get'>
+  Empresa (fabricante):<br>
+  <input type="text" name="company" value=""><br><br>
+  <input type="submit" value="Buscar Empresa"><br><br><br>
+</form>
+
+<form action="listDrugs"  method = 'get'>
+  Listado de Fármacos (introduzca un número):<br>
+  <input type="text" name="limit" value=""><br><br>
+  <input type="submit" value="Buscar Listado de Medicamentos"><br><br><br>
+</form>
+
+<form action="listCompanies"  method = 'get'>
+  Listado de Empresas (introduzca un número):<br>
+  <input type="text" name="limit" value=""><br><br>
+  <input type="submit" value="Buscar Listado de Empresas"><br><br><br>
+</form>
+
+<form action="listWarnings"  method = 'get'>
+  Advertencias (introduzca un número):<br>
+  <input type="text" name="limit" value=""><br><br>
+  <input type="submit" value="Buscar Advertencias"><br><br><br>
+</form>
+
+
+</body>
+</html>
